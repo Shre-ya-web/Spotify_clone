@@ -1,0 +1,30 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* Dark gray thumb color */
+    border-radius: 4px; /* Rounded corners for the thumb */
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* Slightly lighter gray when hovered */
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: #222; /* Darker track color */
+    border-radius: 4px; /* Match track corners with thumb */
+    }
